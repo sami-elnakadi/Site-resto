@@ -1,0 +1,124 @@
+html, body {
+    width:100%;
+    background-color: #525050;
+}
+
+.parallax {
+    background:url("../img/Parallax.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    width:auto;
+    height:400px;
+}
+
+// Hide BG IMG from Parallax effect
+@media (min-width: 300px) and (max-width:768px) {
+
+    .parallax { 
+        display: none;
+    }
+}
+
+nav {
+    background-color: #222222; 
+    color: white;
+}
+
+.navbar a { 
+    color: white; 
+}
+
+.navbar a:hover { 
+    color: white; 
+    background-color: #850808; 
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    
+    
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+
+    .white-bars {
+        color: #FFFFFF;
+        }
+
+ .jumbotron {
+    background-color: #fff;
+    color:black;
+    }
+
+main {
+    background-color: #525050; 
+    min-width: 300px;
+}
+
+
+footer {
+    background-color: #222222;
+    color:white;
+}
+
+// Style page carte
+.list-group a{
+    color:white;
+}
+
+#list-home-list, #list-profile-list, #list-messages-list, #list-settings-list{
+    background-color: #222222;
+    border:none;
+    margin-bottom: 5px;
+}
+
+#list-home-list:hover, #list-profile-list:hover, #list-messages-list:hover, #list-settings-list:hover{
+    background-color: #A7A37E;
+}
+
+#list-home-list:focus, #list-profile-list:focus, #list-messages-list:focus, #list-settings-list:focus{
+    border: 1px solid #E6E2AF;
+}
+
+.tab-content{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+// Galerie test //
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+.black-text{
+    color: white;
+}
+
+#important {
+    font-weight: bold;
+    color: #b30000;
+}
+
+#schedule {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    vertical-align:  middle;
+}

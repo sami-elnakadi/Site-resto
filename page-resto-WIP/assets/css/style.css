@@ -1,0 +1,23 @@
+nav { background-color: #b30000; color: gold; }
+
+.navbar a { color: yellow; }
+
+.navbar a:hover { color: gold; background-color: #850808; }
+
+.fa-1x { font-size: 1.5rem; }
+
+.navbar-toggler.toggler-example { cursor: pointer; }
+
+.dark-gold { color: gold; }
+
+.row { height: 300px; }
+
+footer { background-color: #b30000; color: gold; height: 50px; }
+
+/* SCSS WIP*/
+#important { font-weight: bold; color: #b30000; }
+
+#schedule { font-family: Arial, Helvetica, sans-serif; }
+
+iframe { max-width: 100%; height: auto; width: auto; vertical-align: middle; }
+/*# sourceMappingURL=style.css.map */
